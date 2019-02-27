@@ -1,0 +1,26 @@
+<main>
+    {{#if error}}
+    <div class="error">{{error}}</div>
+    {{/if}}
+    <h1>Register</h1>
+    <div class="form">
+        <form method="POST">
+            <label for="username">Username:</label>
+            <input type="text" name="username"><br>
+
+            <label for="password">Password:</label>
+            <input type="password" name="password"><br>
+
+            <label for="firstName">First name:</label>
+            <input type="text" name="firstName"><br>
+
+            <label for="lastName">Last name:</label>
+            <input type="text" name="lastName"><br>
+
+            <label for="profilePicture">Profile Picture:</label>
+            <input type="text" name="profilePicture"><br>
+
+            <input type="submit" value="Register">
+        </form>
+    </div>
+</main>
